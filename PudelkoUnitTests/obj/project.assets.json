@@ -1,0 +1,191 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Pudelko(Lab)/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pudelko(Lab).dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pudelko(Lab).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pudelko(Lab)/1.0.0": {
+      "type": "project",
+      "path": "../Pudelko(Lab)/Pudelko(Lab).csproj",
+      "msbuildProject": "../Pudelko(Lab)/Pudelko(Lab).csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "MSTest.TestAdapter >= 2.2.10",
+      "MSTest.TestFramework >= 2.2.10",
+      "Microsoft.NET.Test.Sdk >= 17.3.2",
+      "Pudelko(Lab) >= 1.0.0",
+      "coverlet.collector >= 3.1.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\acer\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\acer\\Desktop\\ndef\\PudelkoUnitTests\\PudelkoUnitTests.csproj",
+      "projectName": "PudelkoUnitTests",
+      "projectPath": "C:\\Users\\acer\\Desktop\\ndef\\PudelkoUnitTests\\PudelkoUnitTests.csproj",
+      "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\acer\\Desktop\\ndef\\PudelkoUnitTests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\acer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\acer\\Desktop\\ndef\\Pudelko(Lab)\\Pudelko(Lab).csproj": {
+              "projectPath": "C:\\Users\\acer\\Desktop\\ndef\\Pudelko(Lab)\\Pudelko(Lab).csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.2.10, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.2.10, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.3.2, )"
+          },
+          "coverlet.collector": {
+            "target": "Package",
+            "version": "[3.1.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.13, 6.0.13]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu MSTest.TestFramework w wersji (>= 2.2.10)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 2.2.7 ]",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NET.Test.Sdk w wersji (>= 17.3.2)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 16.11.0 ]",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu coverlet.collector w wersji (>= 3.1.2)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 3.0.3 ]",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu MSTest.TestAdapter w wersji (>= 2.2.10)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 2.2.7 ]",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.AspNetCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.WindowsDesktop.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

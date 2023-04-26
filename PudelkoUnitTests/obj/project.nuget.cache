@@ -1,0 +1,72 @@
+{
+  "version": 2,
+  "dgSpecHash": "udlXT+KAzpQZZJeE+jE3AIbFmGMzVZx60bdGGS4q9T5+YPy2d/ycZipNFNR4qIeplfhp+DTBzUQ29as4GkCLzw==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\acer\\Desktop\\ndef\\PudelkoUnitTests\\PudelkoUnitTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu MSTest.TestFramework w wersji (>= 2.2.10)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 2.2.7 ]",
+      "libraryId": "MSTest.TestFramework",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NET.Test.Sdk w wersji (>= 17.3.2)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 16.11.0 ]",
+      "libraryId": "Microsoft.NET.Test.Sdk",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu coverlet.collector w wersji (>= 3.1.2)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 3.0.3 ]",
+      "libraryId": "coverlet.collector",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu MSTest.TestAdapter w wersji (>= 2.2.10)\r\n  - Znalezione wersje w Microsoft Visual Studio Offline Packages: 1 [ Najbliższa wersja: 2.2.7 ]",
+      "libraryId": "MSTest.TestAdapter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.AspNetCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.WindowsDesktop.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Nie można znaleźć pakietu Microsoft.NETCore.App.Ref. W źródłach nie istnieją pakiety z tym identyfikatorem: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.NETCore.App.Ref",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
